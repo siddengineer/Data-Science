@@ -2,6 +2,7 @@
 
 LATEST UPLOAD:
 H1-B VISA DATA SCIENCE PROJECT: H B-1 VISA DATA SCIENCE.pdf
+Khadi market data science:https://github.com/siddengineer/Data-Science/blob/main/khadi.pdf
 
 | #   | Sector                         | Company          | Project Description                                              | Project Link          |
 |-----|--------------------------------|------------------|-----------------------------------------------------------------|----------------------|
