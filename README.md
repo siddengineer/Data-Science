@@ -169,7 +169,7 @@ Datasets:
 
 | No. |           Article Title                          |             Link             |
 |-----|-----------------------------------------------|------------------------------|
-| 1   | create_1d_array.py                             |                              |
+| 1   | create_1d_array.py                             |https://github.com/siddengineer/Data-Science/blob/main/create_1d_array.py                              |
 | 2   | create_2d_array.py                             |                              |
 | 3   | create_3d_array.py                             |                              |
 | 4   | numpy_arange_example.py                         |                              |
