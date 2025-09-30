@@ -6,7 +6,7 @@ Khadi market data science:https://github.com/siddengineer/Data-Science/blob/main
 
 | #   | Sector                         | Company          | Project Description                                              | Project Link          |
 |-----|--------------------------------|------------------|-----------------------------------------------------------------|----------------------|
-| 1   | 🛒 Retail & E-Commerce          | Amazon           | Predict product return likelihood based on order patterns.      | [Link](#)            |
+| 1   | 🛒 Retail & E-Commerce          | Amazon           | Predict product return likelihood based on order patterns.      | https://github.com/siddengineer/Data-Science/blob/main/Predict%20product%20return%20likelihoof%20based%20on%20the%20order%20pattern          |
 | 2   | 🛒 Retail & E-Commerce          | Flipkart         | Forecast sales of new electronic products during Big Billion Day.| [Link](#)           |
 | 3   | 🛒 Retail & E-Commerce          | Walmart          | Optimize inventory using historical sales and weather data.     | [Link](#)            |
 | 4   | 🛒 Retail & E-Commerce          | Target           | Detect anomalous transactions in point-of-sale systems.         | [Link](#)            |
