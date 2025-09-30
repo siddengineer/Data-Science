@@ -171,7 +171,7 @@ Datasets:
 |-----|-----------------------------------------------|------------------------------|
 | 1   | create_1d_array.py                             |https://github.com/siddengineer/Data-Science/blob/main/create_1d_array.py                              |
 | 2   | create_2d_array.py                             |https://github.com/siddengineer/Data-Science/blob/main/create_2d_array.py                              |
-| 3   | create_3d_array.py                             |                              |
+| 3   | create_3d_array.py                             | https://github.com/siddengineer/Data-Science/blob/main/NumPy%203D%20Arrays%20Notes                             |
 | 4   | numpy_arange_example.py                         |                              |
 | 5   | numpy_linspace_example.py                       |                              |
 | 6   | numpy_zeros_ones.py                             |                              |
