@@ -1,0 +1,85 @@
+1. What is a 3D Array?
+
+A 3D array is like a stack of matrices (2D arrays).
+
+Think of it as a cube of numbers: depth × rows × columns.
+
+Example analogy:
+
+1D → List of numbers
+
+2D → Table (rows × columns)
+
+3D → Multiple tables stacked together
+
+2. Creating 3D Arrays
+import numpy as np
+
+# Using np.array
+arr = np.array([
+    [[1, 2, 3], [4, 5, 6]],        # 1st matrix (2x3)
+    [[7, 8, 9], [10, 11, 12]]      # 2nd matrix (2x3)
+])
+print(arr.shape)  # Output: (2, 2, 3)
+
+
+Other ways:
+
+# Using zeros
+arr = np.zeros((3, 4, 5))  # 3 matrices, 4 rows, 5 columns
+
+# Using ones
+arr = np.ones((2, 3, 4))
+
+# Using random numbers
+arr = np.random.randint(0, 10, (2, 3, 3))  # integers 0-9
+
+3. Accessing Elements
+# arr[depth_index, row_index, column_index]
+print(arr[0, 1, 2])  # 1st matrix, 2nd row, 3rd column
+
+
+Access whole matrix: arr[0] → first 2D matrix
+
+Access whole row in a matrix: arr[0, 1] → second row of first matrix
+
+Access whole column across a matrix: arr[0, :, 2] → 3rd column of first matrix
+
+4. Slicing 3D Arrays
+# Get first 2 matrices, all rows, first 2 columns
+arr[:2, :, :2]
+
+# Get last matrix, all rows, all columns
+arr[-1, :, :]
+
+5. Shape and Reshaping
+print(arr.shape)  # (depth, rows, cols)
+
+# Reshape to another compatible shape
+arr2 = arr.reshape(3, 2, 2)  # only if total elements match
+
+6. Basic Operations
+# Element-wise operations
+arr = arr + 10
+arr = arr * 2
+
+# Sum across axes
+np.sum(arr)        # total sum
+np.sum(arr, axis=0)  # sum across depth → gives 2D array
+np.sum(arr, axis=1)  # sum across rows → keeps depth × columns
+np.sum(arr, axis=2)  # sum across columns → keeps depth × rows
+
+7. Useful Functions
+np.max(arr)       # maximum element
+np.min(arr)       # minimum element
+np.mean(arr)      # mean of all elements
+np.argmax(arr)    # index of max element in flattened array
+np.transpose(arr, (1, 0, 2))  # swap axes
+
+8. Real-Life Example
+
+RGB image: 3D array (height × width × 3)
+
+Video: 4D array (frames × height × width × channels)
+
+Sensor data over time: (time × sensors × readings)
